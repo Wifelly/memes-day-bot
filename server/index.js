@@ -25,7 +25,7 @@ app.post('/days-full-api', (req, res) => {
     console.log(day, month)
     let data = treatment.getDaysInCurrentMonth(day, month);
 
-    res.send(JSON.stringify(data));
+    res.send('hello');
 })
 
 app.get('/api-gau', (req, res)=>{
