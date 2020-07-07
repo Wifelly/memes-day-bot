@@ -10,7 +10,7 @@ const treatment = new Treatment(daysArray);
 
 
 
-app.use(bodyParser.json());
+app.use(bodyParser.json({type: 'application/x-www-form-urlencoded'}));
 
 app.post('/month-api', (req, res) => {
     let {month} = req.body;
@@ -20,7 +20,9 @@ app.post('/month-api', (req, res) => {
 
 app.post('/days-full-api', (req, res) => {
     GAU++;
+    console.log(req.body)
     let {day, month} = req.body;
+    console.log(day, month)
     let data = treatment.getDaysInCurrentMonth(day, month);
 
     res.send(JSON.stringify(data));
