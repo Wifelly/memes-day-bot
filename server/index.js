@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const Treatment = require("./classes/treatment");
 const daysArray = require('./yearDays');
 const app = express();
-const port = 3001;
+const port = process.env.PORT || 5000;
 let GAU = 0;
 
 const treatment = new Treatment(daysArray);
@@ -31,4 +31,4 @@ app.get('/api-gau', (req, res)=>{
     res.send(gau);
 })
 
-app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}, gooooooooooooo`))
