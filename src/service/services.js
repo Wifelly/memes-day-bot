@@ -1,6 +1,6 @@
 class Services {
     constructor() {
-        this.server = '';
+        this.server = 'https://quiet-meadow-77712.herokuapp.com';
     }
     async getMonth (month){
         let body = JSON.stringify({month});

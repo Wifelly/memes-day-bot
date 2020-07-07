@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97f23fb1bb1e9301324abaaadc1564a7",
+    "revision": "c774f33039fe74837ede0c730f39e2b4",
     "url": "/vitaliyeb/memes-day/tree/master/build/index.html"
   },
   {
-    "revision": "f93d499ae171dad15d53",
+    "revision": "417e59c3eb7fcf71a4bb",
     "url": "/vitaliyeb/memes-day/tree/master/build/static/css/main.11b67816.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vitaliyeb/memes-day/tree/master/build/static/js/2.8c33befe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f93d499ae171dad15d53",
-    "url": "/vitaliyeb/memes-day/tree/master/build/static/js/main.c29d4fd9.chunk.js"
+    "revision": "417e59c3eb7fcf71a4bb",
+    "url": "/vitaliyeb/memes-day/tree/master/build/static/js/main.f8b7a05e.chunk.js"
   },
   {
     "revision": "3497250a5c9ca4bcb8e7",

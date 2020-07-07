@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vitaliyeb/memes-day/tree/master/build/precache-manifest.0c06e7301d1748146aff339faa1f7210.js"
+  "/vitaliyeb/memes-day/tree/master/build/precache-manifest.21c1fec0db37aac2bcdd24259a849110.js"
 );
 
 self.addEventListener('message', (event) => {

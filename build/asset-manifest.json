@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vitaliyeb/memes-day/tree/master/build/static/css/main.11b67816.chunk.css",
-    "main.js": "/vitaliyeb/memes-day/tree/master/build/static/js/main.c29d4fd9.chunk.js",
-    "main.js.map": "/vitaliyeb/memes-day/tree/master/build/static/js/main.c29d4fd9.chunk.js.map",
+    "main.js": "/vitaliyeb/memes-day/tree/master/build/static/js/main.f8b7a05e.chunk.js",
+    "main.js.map": "/vitaliyeb/memes-day/tree/master/build/static/js/main.f8b7a05e.chunk.js.map",
     "runtime-main.js": "/vitaliyeb/memes-day/tree/master/build/static/js/runtime-main.cd313beb.js",
     "runtime-main.js.map": "/vitaliyeb/memes-day/tree/master/build/static/js/runtime-main.cd313beb.js.map",
     "static/js/2.8c33befe.chunk.js": "/vitaliyeb/memes-day/tree/master/build/static/js/2.8c33befe.chunk.js",
     "static/js/2.8c33befe.chunk.js.map": "/vitaliyeb/memes-day/tree/master/build/static/js/2.8c33befe.chunk.js.map",
     "index.html": "/vitaliyeb/memes-day/tree/master/build/index.html",
-    "precache-manifest.0c06e7301d1748146aff339faa1f7210.js": "/vitaliyeb/memes-day/tree/master/build/precache-manifest.0c06e7301d1748146aff339faa1f7210.js",
+    "precache-manifest.21c1fec0db37aac2bcdd24259a849110.js": "/vitaliyeb/memes-day/tree/master/build/precache-manifest.21c1fec0db37aac2bcdd24259a849110.js",
     "service-worker.js": "/vitaliyeb/memes-day/tree/master/build/service-worker.js",
     "static/css/main.11b67816.chunk.css.map": "/vitaliyeb/memes-day/tree/master/build/static/css/main.11b67816.chunk.css.map",
     "static/js/2.8c33befe.chunk.js.LICENSE.txt": "/vitaliyeb/memes-day/tree/master/build/static/js/2.8c33befe.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.cd313beb.js",
     "static/js/2.8c33befe.chunk.js",
     "static/css/main.11b67816.chunk.css",
-    "static/js/main.c29d4fd9.chunk.js"
+    "static/js/main.f8b7a05e.chunk.js"
   ]
 }
