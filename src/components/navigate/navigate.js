@@ -19,7 +19,7 @@ class Navigate extends React.Component{
         return(
             <div className="navigate">
                 <p className="navigate__but" onClick={()=>updateMonth(-1)}>&#8701;</p>
-                <p className="navigate__view">{`${this.addNum(date.getDate())}.${this.addNum(date.getMonth())}.${date.getFullYear()}`}</p>
+                <p className="navigate__view">{`${this.addNum(date.getDate())}.${this.addNum(date.getMonth()+1)}.${date.getFullYear()}`}</p>
                 <p className="navigate__but" onClick={()=>updateMonth(1)}>&#8702;</p>
             </div>
         )

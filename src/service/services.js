@@ -12,8 +12,10 @@ class Services {
         );
         return await response.json();
     }
-    async getDay (){
-
+    async getAllUsers (){
+        let res = await fetch('/api-gau');
+        let data = await res.text();
+        return data;
     }
     async getFull (day, month){
         let body = JSON.stringify({day,month});

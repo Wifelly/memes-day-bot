@@ -28,18 +28,22 @@ class App extends React.Component{
         this.services.getMonth(newDate.getMonth())
             .then(data => this.setState({...this.state, data: data, loading: false }))
         this.setState({...this.state, dateNavigation: newDate, loading: true});
-
-
     }
 
     componentDidMount() {
         const date = new Date();
         const month = date.getMonth();
         const day = date.getDate();
-        this.services.getFull(day, month)
-            .then(data=>{
-                this.setState({loading: false, dayData: data.currentDay, data })
-            });
+        Promise.all([
+            this.services.getFull(day, month),
+            new Promise((res)=> setTimeout(()=>res(), 1000))
+        ]).then(([data]) => this.setState({loading: false, dayData: data.currentDay, data }));
+        this.getAllUsers();
+    }
+
+    getAllUsers(){
+        let gau = document.cookie.includes('gau')
+        if (gau) return this.services.getAllUsers().then(data=>console.log(data));
     }
 
     render() {
