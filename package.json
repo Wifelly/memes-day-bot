@@ -16,7 +16,7 @@
   "proxy": "http://localhost:3001",
   "scripts": {
     "start": "react-scripts start",
-    "ss": "nodemon ./server/index.js",
+    "ss": "./server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
