@@ -26,6 +26,11 @@ main{
     text-align: center;
     border-radius: 2%;
 }
+@media (max-width: 450px) {
+    .day-item{
+        width: 49%;
+    }
+}
 .day-item:before{
     content: "";
     padding-top: 100%;
@@ -38,8 +43,8 @@ main{
 }
 .day-item__month{
     font-family: monospace;
-    letter-spacing: 2px;
-    font-size: 28px;
+    letter-spacing: 1px;
+    font-size: clamp(18px, 3vw, 28px);
     margin-top: -12px;
 }
 .day-item__name{
