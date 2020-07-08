@@ -40,7 +40,7 @@ class Services {
                 }
             }
             );
-        return await response.json();
+        return await response.text();
     }
 }
 export default Services;
