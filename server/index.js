@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const Treatment = require("./classes/treatment");
 const daysArray = require('./yearDays');
+const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 5000;
 let GAU = 0;
@@ -9,7 +10,7 @@ let GAU = 0;
 const treatment = new Treatment(daysArray);
 
 
-
+app.use(cors());
 app.use(bodyParser.json({type: 'application/x-www-form-urlencoded'}));
 
 app.post('/month-api', (req, res) => {
