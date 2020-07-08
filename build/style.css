@@ -27,8 +27,8 @@ main{
     border-radius: 2%;
 }
 @media (max-width: 450px) {
-    .day-item{
-        width: 49%;
+    .main_content{
+        justify-content: space-around;
     }
 }
 .day-item:before{

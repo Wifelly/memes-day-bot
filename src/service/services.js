@@ -24,7 +24,6 @@ class Services {
         });
 
         let data = await res.text();
-        console.log(data, ' sa')
         return data;
     }
     async getFull (day, month){
