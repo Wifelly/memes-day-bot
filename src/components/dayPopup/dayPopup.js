@@ -23,7 +23,7 @@ class DayPopup extends React.Component{
                 <div className={`popup__image-wrapper ${classModifycate}`}>
                     <img className='popup__image'
                          onLoad={()=>this.imageLoad()}
-                         src={`/images${this.props.dayData.imageLink}.jpg`} alt="dayPhoto"/>
+                         src={`/memes-day/build/images${this.props.dayData.imageLink}.jpg`} alt="dayPhoto"/>
                     <div className="popup__loader"> </div>
                     <div className="popup__image-description">
                         <p>{this.props.dayData.day}</p>
