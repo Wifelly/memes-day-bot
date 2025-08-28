@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from aiogram import Bot, Dispatcher, executor
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
-# dont even think about stealing my api-key
+# ⛔️⛔️⛔️ dont even think about stealing my api-key ⛔️⛔️⛔️
 api_key = '2145447042:AAFOgh7jlHcDlccVKesN7xEZslEUfPP-gUQ'
 group_id = -687621057
 admin_id = 220077098
